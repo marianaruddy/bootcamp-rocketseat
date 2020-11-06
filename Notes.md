@@ -57,3 +57,5 @@ OBS: para mobile trocar o `react-dom` por `react-dom`
 - Webpack: converte o código de uma maneira diferente para cada tipo de aquivo (.js, .css, .png, ...)
 
 - Loaders (babel-loader, css-loader, image-loader): são usados pelo Webpack
+
+OBS: na aula é dito pra usar `yarn webpack-dev-server --mode development`, mas só funcionou com `yarn webpack serve --mode development`
