@@ -1,3 +1,5 @@
+# BOOTCAMP ROCKETSEAT
+
 ## Métodos HTTP
 - GET
 - POST
@@ -28,3 +30,10 @@ para pegar o valor podemos usar `request.params`
 app.use(express.json());
 ```
  antes de chamar o método, assim todos as chamadas saberão interptretar JSON
+
+## Middlewares
+interceptador de requisições que pode interromper totalmente a requisição ou alterar dados da requisição
+para aplicar um middleware em apenas uma chamada (get, por exemplo), podemos colocá-lo entre o enedereço e a função:
+```
+app.get('/projects', logRequests, middleware1, middleware2, (request, response) => {
+```
