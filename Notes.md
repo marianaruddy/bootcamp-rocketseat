@@ -70,9 +70,13 @@ OBS: na aula é dito pra usar `yarn webpack-dev-server --mode development`, mas 
 - propriedades
     - a propriedade children é criada automaticamente
 - estado e imutabilidade
-    - a função push nao respeita o conceito de imutabilidade;
+    - a função `push` nao respeita o conceito de imutabilidade;
     - para manter o conceito de imutabilidade faça, por exemplo:
 ```
     const [projects, setProjects] = useState(['Desenvolvimento de app', 'Front-end web']);
     setProjects([ ...projects, `Novo projeto ${Date.now()}`]);
 ```
+
+#### Outros
+
+- o segundo parametro do `useEffect` é chamado `array de dependências`
