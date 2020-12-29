@@ -63,3 +63,9 @@ OBS: na aula é dito pra usar `yarn webpack-dev-server --mode development`, mas 
 #### Componentização
 
 - arquivos de componentes comceçam com letra maiúscula
+
+#### Conceitos importantes
+
+- componentes
+- propriedades
+- estado
