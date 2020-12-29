@@ -59,3 +59,7 @@ OBS: para mobile trocar o `react-dom` por `react-dom`
 - Loaders (babel-loader, css-loader, image-loader): são usados pelo Webpack
 
 OBS: na aula é dito pra usar `yarn webpack-dev-server --mode development`, mas só funcionou com `yarn webpack serve --mode development`
+
+#### Componentização
+
+- arquivos de componentes comceçam com letra maiúscula
